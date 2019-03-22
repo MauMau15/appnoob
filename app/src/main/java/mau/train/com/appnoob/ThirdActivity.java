@@ -92,7 +92,6 @@ public class ThirdActivity extends AppCompatActivity {
                 super.onRequestPermissionsResult(requestCode,permissions,grantResults);
                 break;
         }
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
     }
 
     private boolean CheckPermission(String permission){
