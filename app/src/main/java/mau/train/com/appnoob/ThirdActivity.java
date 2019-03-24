@@ -38,6 +38,9 @@ public class ThirdActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_third);
 
+        //activar flecha para ir atras
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         mailBtn = findViewById(R.id.mailBtn);
         phoneBtn = findViewById(R.id.phoneBtn);
         mailTxt = findViewById(R.id.mailTxt);
